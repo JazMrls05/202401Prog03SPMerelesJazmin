@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo Parcial, Jazmin Mereles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <main>
+        <div id = "spinner" class='spinner'></div>
+        <div id = "formulario-lista" class = "data">
+
+            <table id = "tabla-personas" border="2">
+
+                <thead> 
+                
+                </thead>
+                <tbody>
+
+                </tbody>
+
+            </table>
+
+            <button class = "boton" id = "btn-agregar-persona">Agregar persona</button>
+        </div>
+        <div id="formABM" class = "data">
+                <h1 id="ABM_text">Formulario</h1>
+                    <form id= "agregar-atributos">
+                        <div>
+                            <div>
+                                <label for = "inputId">Id:</label>
+                                <input type = "number" id = "inputId" class = "elemento-abm" placeholder = "Digite su id..." >
+                            </div>
+                            <div>
+                                Nombre:
+                                <input type = "text" id = "nombreInput" class = "elemento-abm" placeholder = "Digite su nombre..." >
+                            </div>
+                            <div>
+                                Apellido:
+                                <input type = "number" id = "apellidoInput" class = "elemento-abm" placeholder = "Digite su apellido..." >
+                            </div>
+                            <div>
+                                Fecha de nacimiento:
+                                <input type = "text" id = "fechaNacInput" class = "elemento-abm" placeholder = "Digite su fecha de nacimiento..." >
+                            </div>
+                            <div>
+                                Tipo:
+                                <select id= "selectTipo" class = "elemento-abm" >
+                                    <option value = "ciudadano">Ciudadano</option>
+                                    <option value = "extranjero">Extranjero</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id = "labelAtrTipo">DNI:</label> 
+                                <input type = "number" id = "inputAtrTipo" class = "elemento-abm" placeholder = "" required>
+                            </div>
+                        </div>
+                    </form>
+                    <button  id = "enviarDatos" class = "boton" type = "submit" >Aceptar</button>
+                    <button id = "cancelar" class = "boton" >Cancelar</button>
+            </div>
+
+
+    </main>
+   
+    <script src = "script.js"></script> 
+</body>
+</html>
